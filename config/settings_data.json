@@ -134,7 +134,7 @@
           "ea723308-92c0-42ae-a45d-aede426d8cdd"
         ],
         "settings": {
-          "header_design": "logo-center-menu-left",
+          "header_design": "logo-left__2l",
           "container": "container-fluid",
           "header_sticky": true,
           "transparent_on_top": false,
