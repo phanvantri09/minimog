@@ -9,7 +9,7 @@
           <button class="flex items-center py-2 px-3">
               <span class="sf__tooltip-item block sf__tooltip-bottom sf__tooltip-style-2">
                   <!-- {% render 'icon', name: 'search', size: 'medium-small' %} -->
-                <form action="/search" method="GET">
+                <form action="/search" method="GET" novalidate class="relative w-full md:mx-28 flex border border-black rounded-md">
                     <input type="hidden" name="type" value="product">
                   <input type="hidden" name="options[unavailable_products]" value="last">
                   <input type="hidden" name="options[prefix]" value="last">
