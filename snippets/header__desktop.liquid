@@ -153,13 +153,12 @@
                     {% endif %}
                 </div>
             </div>
-            {% render 'header-option-item__search', header_settings: section.settings %}
-
         {% when 'logo-left__2l' %}
             <div class="{{ container }} sf__header-main-top">
                 <div class="flex sf-menu-logo-bar -mx-4 items-center py-2">
                     {% render 'header-logo', header_settings: section.settings, box_size: 'w-1/3', box_size: 'justify-start' %}
                     <div class="w-2/3 flex flex-grow justify-end items-center">
+                        {% render 'header-option-item__search', header_settings: section.settings %}
                         
                     </div>
                     <div class="w-2/3 flex flex-grow justify-end items-center">
