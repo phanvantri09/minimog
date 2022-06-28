@@ -11,20 +11,20 @@
                   {% render 'icon', name: 'search', size: 'medium-small' %}
                 <form action="/search" method="GET" novalidate class="relative w-full md:mx-28 flex border border-black rounded-md">
                     <input type="hidden" name="type" value="product">
-                  <input type="hidden" name="options[unavailable_products]" value="last">
-                  <input type="hidden" name="options[prefix]" value="last">
-                  <input type="hidden" name="options[fields]" value="title,vendor,product_type,variants.title">
+                    <input type="hidden" name="options[unavailable_products]" value="last">
+                    <input type="hidden" name="options[prefix]" value="last">
+                    <input type="hidden" name="options[fields]" value="title,vendor,product_type,variants.title">
 
-                  <input
-                    type="text" name="q" required autocomplete="off"
-                    placeholder="{{ 'general.search.placeholder' | t }}"
-                    aria-label="{{ 'general.search.placeholder' | t }}"
-                    class="w-full h-11" style="border: none;"
-                    data-search-input
-                  />
-                  <button type="submit" class="absolute top-px right-0 py-3 px-3.5">
-                    {% render 'icon', name: 'search', size: 'medium-small' %}
-                  </button>
+                    <input
+                        type="text" name="q" required autocomplete="off"
+                        placeholder="{{ 'general.search.placeholder' | t }}"
+                        aria-label="{{ 'general.search.placeholder' | t }}"
+                        class="w-full h-11" style="border: none;"
+                        data-search-input
+                    />
+                    <button type="submit" class="absolute top-px right-0 py-3 px-3.5">
+                        {% render 'icon', name: 'search', size: 'medium-small' %}
+                    </button>
                 </form>
                   <span class="sf__tooltip-content">{{ 'general.search.placeholder_short' | t }}</span>
               </span>
