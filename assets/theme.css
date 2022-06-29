@@ -4701,6 +4701,7 @@ button.sf__btn.sf__btn-white:hover {
 }
 .sf-logo .sf-image {
   transition: opacity 0.3s, visibiliy 0.3s;
+  height: 250px;
 }
 .sf-logo-light {
   position: absolute;
