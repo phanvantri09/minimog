@@ -4844,6 +4844,7 @@ button.sf__btn.sf__btn-white:hover {
 }
 .sf-search-form {
   height: 65px;
+  width: 681px;
 }
 @media (min-width: 1280px) {
   .sf-search-form--full {
